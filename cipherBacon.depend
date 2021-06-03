@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1621287197 source:d:\project\cipherbacon\cipherbacon\file_work.c
+	"cipherBacon.h"
+
+1622573766 d:\project\cipherbacon\cipherbacon\cipherbacon.h
+	<tchar.h>
+	<windows.h>
+	<commctrl.h>
+	<commdlg.h>
+	<string.h>
+	<locale.h>
+	<richedit.h>
+	<winuser.h>
+	<shellapi.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
+1622493275 source:d:\project\cipherbacon\cipherbacon\log_mode_a.c
+	"cipherBacon.h"
+
+1622130749 source:d:\project\cipherbacon\cipherbacon\log_mode_b.c
+	"cipherBacon.h"
+
+1621284898 source:d:\project\cipherbacon\cipherbacon\log_mode_c.c
+	"cipherBacon.h"
+
+1622636034 source:d:\project\cipherbacon\cipherbacon\main.c
+	"cipherBacon.h"
+
+1622663681 source:d:\project\cipherbacon\cipherbacon\gui_mode.c
+	"cipherBacon.h"
+
+1621886789 source:d:\project\cipherbacon\cipherbacon\log_mode_d.c
+	"cipherBacon.h"
+
+1621870819 source:d:\project\cipherbacon\cipherbacon\log_mode_e.c
+	"cipherBacon.h"
+
+1622573519 source:d:\project\cipherbacon\cipherbacon\icon.rc
+	"cipherBacon.h"
+

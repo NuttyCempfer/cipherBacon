@@ -1,0 +1,3 @@
+#include "cipherBacon.h"
+
+IDI_ICON    ICON       "icon.ico"
