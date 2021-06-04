@@ -815,7 +815,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
             PostQuitMessage (0);       /* send a WM_QUIT to the message queue */
         break;
         case WM_CLOSE:
-            if(MessageBox(hwnd,"Вы уверены?","Вопрос:",MB_YESNO) == IDYES)
+            if(MessageBox(hwnd,"Вы уверены, что хотите выйти из программы?","Вопрос:",MB_YESNO) == IDYES)
                 DestroyWindow(hwnd);
         break;
         default:                      /* for messages that we don't deal with */
