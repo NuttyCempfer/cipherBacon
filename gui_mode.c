@@ -58,12 +58,21 @@ int WINAPI WinMain (HINSTANCE hThisInstance,
     //MessageBox(HWND_DESKTOP,, "Внимание!", MB_OK);
     modeAll.E.nCont=ID_ContRB1;
     modeAll.E.nMode=ID_modeRBA1;
-    HWND hwnd, hwndChild;/* This is the handle for our window */
+    HWND hwnd, hwndChild, Repeat;/* This is the handle for our window */
     HMENU hMenu, hPopUpMenu;
     MSG messages;            /* Here messages to the application are saved */
     WNDCLASSEX wincl, winclChild;        /* Data structure for the windowclass */
     HINSTANCE hRTFLib;
     hRTFLib = LoadLibrary("RICHED32.DLL");
+
+    Repeat=FindWindow(szClassName,NULL);
+    if(Repeat != NULL){
+        if(IsIconic(Repeat))
+            ShowWindow(Repeat,SW_SHOWDEFAULT);
+        return 0;
+    }
+
+
     if(GetCurrentDirectory(244,FileName) == 0){
         MessageBox(HWND_DESKTOP,"Не существует текущая дирректория", "Ошибка!", MB_OK);
         return 0;
